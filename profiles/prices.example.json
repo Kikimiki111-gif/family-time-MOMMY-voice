@@ -1,0 +1,14 @@
+{
+  "Model": "gpt-realtime-2.1-mini",
+  "VerifiedDate": "2026-10-31",
+  "Currency": "USD",
+  "TextInput": 0.60,
+  "TextCached": 0.06,
+  "TextOutput": 2.40,
+  "AudioInput": 10.00,
+  "AudioCached": 0.30,
+  "AudioOutput": 20.00,
+  "ImageInput": 0.80,
+  "ImageCached": 0.08,
+  "Source": "https://developers.openai.com/api/docs/models/gpt-realtime-2.1-mini"
+}

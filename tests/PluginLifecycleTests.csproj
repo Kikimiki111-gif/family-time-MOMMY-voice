@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PluginLifecycleTests.cs" />
+    <Reference Include="FamilyTimeVoice"><HintPath>..\bin\Release\netstandard2.1\FamilyTimeVoice.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="FamilyTimeVoice.Json"><HintPath>..\.tools\json\FamilyTimeVoice.Json.dll</HintPath><Private>true</Private></Reference>
+    <Reference Include="BepInEx"><HintPath>..\.tools\bepinex\BepInEx\core\BepInEx.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>

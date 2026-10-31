@@ -1,0 +1,11 @@
+{
+  "Model": "gpt-live-1",
+  "Currency": "USD",
+  "VerifiedDate": "2026-10-31",
+  "VoiceUsdPerMinute": 0.05,
+  "CloseReserveSeconds": 10,
+  "TranscriptionModel": "gpt-transcribe",
+  "TranscriptionUsdPerMinute": 0.0045,
+  "Source": "https://developers.openai.com/api/docs/pricing",
+  "BackendModels": {}
+}

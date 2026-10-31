@@ -1,0 +1,135 @@
+{
+  "verifiedDate": "2026-10-31",
+  "dotnetSdk": {
+    "version": "8.0.427",
+    "runtime": "8.0.33",
+    "installerUrl": "https://dot.net/v1/dotnet-install.ps1",
+    "installerSHA256": "e8b873e18a81e5c4cd8ab69d84dac8fead291d50b3c44633cd7fddad709a13d6",
+    "archiveUrl": "https://builds.dotnet.microsoft.com/dotnet/Sdk/8.0.427/dotnet-sdk-8.0.427-win-x64.zip",
+    "publishedSHA512": "a4dd6eb2bf2a2f6fb10997d3e044a229b23ad96a5c86d20494687e34ee73b537d7bd14488ce14cded6917f6778da4d66360e2734020b7ef487d0f29ab144489d",
+    "localPath": ".tools/dotnet/dotnet.exe",
+    "notes": "Official installer succeeded. It emitted that archive size could not be measured, then extracted SDK; dotnet --info succeeds."
+  },
+  "ilspycmd": {
+    "version": "9.1.0.7988",
+    "packageUrl": "https://api.nuget.org/v3-flatcontainer/ilspycmd/9.1.0.7988/ilspycmd.9.1.0.7988.nupkg",
+    "packageSHA256": "2b5058f5ccc164c33b7aabf1a5eb0cf3d3a6af6c145aaf58efd3ed891443af7c",
+    "localPath": ".tools/ilspy/ilspycmd.exe",
+    "command": "Set DOTNET_ROOT to absolute .tools/dotnet before invocation."
+  },
+  "bepinex": {
+    "version": "5.4.23.6",
+    "backend": "Unity Mono",
+    "architecture": "x64",
+    "releaseUrl": "https://github.com/BepInEx/BepInEx/releases/tag/v5.4.23.6",
+    "assetUrl": "https://github.com/BepInEx/BepInEx/releases/download/v5.4.23.6/BepInEx_win_x64_5.4.23.6.zip",
+    "publishedSHA256": "6c57a714a892efb4e9e1fef63d608a3391f30ec984031c465404e4ee381a0755",
+    "actualSHA256": "6c57a714a892efb4e9e1fef63d608a3391f30ec984031c465404e4ee381a0755",
+    "localArchive": ".tools/BepInEx_win_x64_5.4.23.6.zip",
+    "extractedPath": ".tools/bepinex",
+    "installedToGame": true,
+    "selection": "Official stable Mono x64 LTS loader. Minimal actual-game startup verified; exact Windows BCL and engine-restoration final runtime checks tracked in docs/test-report.md."
+  },
+  "unityWindowsCoreLibraries": {
+    "unityVersion": "6000.2.12f1",
+    "revision": "e89d5df0e333",
+    "releaseMetadataUrl": "https://services.api.unity.com/unity/editor/release/v1/releases?version=6000.2.12f1&limit=1",
+    "installerUrl": "https://download.unity3d.com/download_unity/e89d5df0e333/Windows64EditorInstaller/UnitySetup64-6000.2.12f1.exe",
+    "publishedMD5": "A06E21AFFA4DBB766D9CF3CAB1122AE4",
+    "actualMD5": "A06E21AFFA4DBB766D9CF3CAB1122AE4",
+    "authenticode": "Valid; Unity Technologies SF",
+    "profile": "Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32",
+    "preparedPath": ".tools/unity-windows-corlibs-6000.2.12",
+    "gameDestination": "BepInEx/FamilyTimeVoice-runtime",
+    "configuration": "Doorstop dll_search_path_override; original Managed assemblies untouched",
+    "excludedFromReleaseArchive": true,
+    "manifestSHA256": "8CFA893AFC134C7EB038FE2C58000D9F7A6A5E377484904ADCBCF74217D908AE",
+    "installedToGame": true,
+    "preparedFiles": [
+      {
+        "file": "Microsoft.CSharp.dll",
+        "sha256": "92241FADFB7AA349DC3B794B4B391668711E9DB78671EFDF62FE4DB52CCDEC1A",
+        "installedHashMatches": true
+      },
+      {
+        "file": "Mono.Posix.dll",
+        "sha256": "32C3B9E19615EF3A577537E5E808F881D034BF3218369698A313748C0B7F82B9",
+        "installedHashMatches": true
+      },
+      {
+        "file": "Mono.Security.dll",
+        "sha256": "8A613947E8CDC1050B1C6AF230D63F5835500BD4C6265FDD93CABEB8D428216A",
+        "installedHashMatches": true
+      },
+      {
+        "file": "mscorlib.dll",
+        "sha256": "44C8BA3B568C49A6A635680E72770CD9E3230369B60A357A37799D7921AC1539",
+        "installedHashMatches": true
+      },
+      {
+        "file": "netstandard.dll",
+        "sha256": "6AE62E082DC494A2433984177F60CA4DB5FAE69B1F360A8B33754172B310B8C5",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Configuration.dll",
+        "sha256": "73FC0471322F18613263AA9C4AF95FA2858B02DAB6A476D417216B6801F5A1E6",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Core.dll",
+        "sha256": "718CF4DA7301DFE2997AE245A2D6EA2278AF13109785DC5697473790CE5D1726",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Data.dll",
+        "sha256": "080E5E7ADA60D84095D06F99086A3BE04BB95F5E52DEF38943247C5181A15FD3",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.dll",
+        "sha256": "B7A3726624BD596D8B6CD34E399B0322B2178D8E561BADD521D0F4D9AED31EA4",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Net.Http.dll",
+        "sha256": "73B1329E3D9EBEA4CDFCFE2B4B468218E84C9EFABC5A2F2518617BD7630B09DE",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Numerics.dll",
+        "sha256": "29E26F391281BD705386BEF30F47C9501A424FE6C27A1605788E3AAD4DB01B93",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Runtime.Serialization.dll",
+        "sha256": "36C077F45BB11527C9F571FD10521C0ECAC3D8D9E81E0606CEF34292CD29FA25",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Security.dll",
+        "sha256": "3DB9A1500F44991BFBC2771D16412BBEE65FC5812AEC5E637D79FC2781DD69F0",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Xml.dll",
+        "sha256": "0F40CC28E9593BAFE254E02AC2BAA090E2D13B1005BF580D9A1B82C11F0FC7AC",
+        "installedHashMatches": true
+      },
+      {
+        "file": "System.Xml.Linq.dll",
+        "sha256": "D0FAC514AE3B38D155FB7B9A08068C3C460617C671B8E2807F8C59420ADC2DD5",
+        "installedHashMatches": true
+      }
+    ],
+    "facadeSource": "unityjit-win32/Facades/netstandard.dll"
+  },
+  "developmentSpeechHelper": {
+    "package": "System.Speech",
+    "version": "8.0.0",
+    "license": "MIT",
+    "sourceCommit": "5535e31a712343a63f5d7d796cd874e563e5ac14",
+    "scope": "Optional buildtools/LiveAudition source-only Windows caller synthesis; not a game dependency",
+    "redistributedBinary": false
+  }
+}

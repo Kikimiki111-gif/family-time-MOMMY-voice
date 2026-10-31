@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <AssemblyName>FamilyTimeVoice.EngineRestoration</AssemblyName>
+    <Version>0.1.0</Version>
+    <DebugType Condition="'$(Configuration)' == 'Release'">none</DebugType>
+    <LoaderDir Condition="'$(LoaderDir)' == ''">$(MSBuildProjectDirectory)\..\.tools\bepinex</LoaderDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="$(LoaderDir)\BepInEx\core\BepInEx.dll"><Private>false</Private></Reference>
+    <Reference Include="$(LoaderDir)\BepInEx\core\BepInEx.Preloader.dll"><Private>false</Private></Reference>
+    <Reference Include="$(LoaderDir)\BepInEx\core\Mono.Cecil.dll"><Private>false</Private></Reference>
+  </ItemGroup>
+</Project>

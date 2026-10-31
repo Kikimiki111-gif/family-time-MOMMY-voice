@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><TargetFramework>net8.0</TargetFramework><AssemblyName>FamilyTimeVoice.LegacyLedgerBaseline</AssemblyName><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <Compile Include="UsageLedger.cs" /><Compile Include="Settings.cs" />
+    <Reference Include="FamilyTimeVoice.Json"><HintPath>..\..\.tools\json\FamilyTimeVoice.Json.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net8.0</TargetFramework><EnableDefaultCompileItems>false</EnableDefaultCompileItems></PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="LegacyLedgerBaseline\LegacyLedgerBaseline.csproj" ReferenceOutputAssembly="false" />
+    <Compile Include="UpgradeUsageTests.cs" />
+    <Compile Include="..\src\UsageLedger.cs" /><Compile Include="..\src\Settings.cs" /><Compile Include="..\src\VoiceDesignCatalog.cs" />
+    <Reference Include="FamilyTimeVoice.Json"><HintPath>..\.tools\json\FamilyTimeVoice.Json.dll</HintPath><Private>true</Private></Reference>
+  </ItemGroup>
+</Project>
