@@ -1,4 +1,4 @@
-# Family Time Voice
+# Family Time MOMMY Voice 
 
 An open-source BepInEx mod that adds voice conversation with Wolf Mama in **Family Time**. Talk through your microphone, choose a voice, and edit the character's personality in the game.
 
